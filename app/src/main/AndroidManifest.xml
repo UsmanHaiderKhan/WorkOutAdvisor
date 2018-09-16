@@ -11,17 +11,31 @@
         android:theme="@style/AppTheme">
         <activity android:name=".WorkOut" />
         <activity android:name=".OverFlow" />
-        <activity android:name=".AnimatedBtn">
+        <activity android:name=".AnimatedBtn" />
+        <activity android:name=".Intented">
 
         </activity>
-        <activity android:name=".Intented">
+        <activity android:name=".Redirected" />
+
+        <service android:name=".IntentedServices" />
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Bound">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Redirected"></activity>
+
+
+        <service
+            android:name=".Bounding"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
