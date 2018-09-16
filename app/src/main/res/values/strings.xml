@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">WorkOutAdvisor</string>
+    <string name="work_out">Work out type is here!</string>
+    <string name="work_btn">Usman</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="blue_string">Blue</string>
+    <string name="my_text">View Our Over Flow</string>
+    <string name="animated_btn">Button</string>
+    <string name="forward_text">Forward</string>
+    <string name="back_ward">First Activity</string>
+    <string-array name="work_type">
+        <item>Chest</item>
+        <item>Biceps</item>
+        <item>triceps</item>
+        <item>Shoulder</item>
+        <item>SixEbbs</item>
+    </string-array>
 </resources>
